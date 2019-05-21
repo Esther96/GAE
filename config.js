@@ -17,8 +17,8 @@ module.exports = {
   bucketName: 'esbucket',
   cookieSecret: '[cookie signing key]',
   oauth2: {
-    clientId: '898759177779-4ale2g36qs9hq8hjgdev7gelru222qpp.apps.googleusercontent.com',
-    clientSecret: 'WKCrOhX1kEC7DmJ8XvE0XkHY',
-    redirectUrl: process.env.REDIRECT_URL || 'https://8080-dot-7126124-dot-devshell.appspot.com/oauth2callback'
+    clientId: '',
+    clientSecret: '',
+    redirectUrl: process.env.REDIRECT_URL || ''
   }
 };
